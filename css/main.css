@@ -1575,3 +1575,9 @@ hr {
     font-size: 13px;
   }
 }
+
+/* Set Height for Project Display Divs */
+.fixed-height-div {
+  height: 300px; /* Set your desired fixed height */
+
+}
