@@ -292,8 +292,8 @@ hr {
   background-color: #fff;
   border-radius: 50%;
   display: inline-block;
-  height: 13px;
-  width: 13px;
+  height: 25px;
+  width: 25px;
 }
 
 .preloader .preloader-block .preloader-icon .loading-dot.loading-dot-1 {
@@ -1464,12 +1464,12 @@ hr {
   color: #fff;
   display: inline-block;
   font-size: 16px;
-  height: 26px;
+  height: 25px;
   line-height: 26px;
   margin: 0 6px;
   text-align: center;
   transition: all 0.1s ease-in-out;
-  width: 26px;
+  width: 25px;
 }
 
 .footer-area .mini-footer .social-medias a:first-child {
