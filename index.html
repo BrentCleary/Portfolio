@@ -54,7 +54,7 @@
             <li><a class="nav-link" href="#about-area" data-scroll>About</a></li>
             <li><a class="nav-link" href="#services-area" data-scroll>Services</a></li>
             <li><a class="nav-link" href="#portfolio-area" data-scroll>Portfolio</a></li>
-            <li><a class="nav-link" href="#testimonials-area" data-scroll>Clients</a></li>
+            <!-- <li><a class="nav-link" href="#testimonials-area" data-scroll>Clients</a></li> -->
             <!-- <li><a class="nav-link" href="#blog-area" data-scroll>Blog</a></li> -->
             <li><a class="nav-link" href="#contact-area" data-scroll>Contact</a></li>
           </ul>
@@ -99,7 +99,7 @@
             <div class="col-12 col-lg-7 about-content">
               <div class="content-block">
                 <h2 class="content-subtitle">Who am I?</h2>
-                <h6 class="content-title">I'm Brent Cleary a Full Stack Developer with experience building applications in ASP.NET, React and Python</h6>
+                <h6 class="content-title">I'm Brent Cleary. A Full Stack Developer with experience building applications in ASP.NET, React and Python</h6>
                 <div class="content-description">
                   <p>I am a FullStack Software Developer from Seattle, Washington. Since graduating from the Coding Dojo Bootcamp  May 2023, and I have been building applications in ASP.NET, React and Python and websites for since 2022, which comply with the latest design trends. I help convert a vision and an idea into meaningful and useful products. Having a sharp eye for product evolution helps me prioritize tasks, iterate fast and deliver faster.</p>
                 </div>
@@ -186,7 +186,7 @@
 
       <!-- Hire-->
       <!-- TODO: Fix Section for Hire Me and Make it workable or Delete it -->
-      <section class="single-section element-cover-bg hire-area" id="hire-area" style="background-image:url(/img/hire.jpg)">
+      <!-- <section class="single-section element-cover-bg hire-area" id="hire-area" style="background-image:url(/img/hire.jpg)">
         <div class="container">
           <div class="row row-custom">
             <div class="col-12 col-md-8 content-part">
@@ -198,7 +198,7 @@
             </div>
           </div>
         </div>
-      </section>
+      </section> -->
 
       <!-- TODO: PROJECT LISTS  -->
       <!-- Portfolio-->
@@ -217,9 +217,10 @@
             <div class="col-12">
               <ul class="list-inline filter-control" role="group" aria-label="Filter Control">
                 <li class="list-inline-item tab-active" data-filter="*">All</li>
-                <li class="list-inline-item" data-filter=".brand">Brand</li>
-                <li class="list-inline-item" data-filter=".design">Design</li>
-                <li class="list-inline-item" data-filter=".photos">Photos</li>
+                <li class="list-inline-item" data-filter=".websites">Websites</li>
+                <li class="list-inline-item" data-filter=".apps">Apps</li>
+                <li class="list-inline-item" data-filter=".asp-net">ASP.NET</li>
+                <li class="list-inline-item" data-filter=".javascript">Javascript</li>
               </ul>
             </div>
           </div>
@@ -229,75 +230,88 @@
           <div class="portfolio-grid row">
             <!-- TODO: Contact Pro Card -->
             <!-- Single item-->
-            <div class="single-item col-6 col-lg-4">
+            <div class="single-item websites asp-net col-6 col-lg-4">
               <a class="portfolio-item" href="#item-1">
-                <div class="portfolio-wrapper mb-0"><img class="img-fluid" alt="Item" src="/img/ContactPro/ContactProLogoSquare.jpg">
+                <div class="portfolio-wrapper mb-0">
+                  <img class="img-fluid" alt="Item" src="/img/ContactPro/ContactProLogoSquare.jpg">
                   <div class="item-content">
                     <h6 class="content-title">ContactPro</h6><span class="content-more">More Info</span>
                   </div>
                 </div>
               </a>
             </div>
+
             <!-- TODO: Blazor Movie Pro -->
             <!-- Single item-->
-            <div class="single-item col-6 col-lg-4">
+            <div class="single-item websites asp-net col-6 col-lg-4">
               <a class="portfolio-item" href="#item-2">
-                <div class="portfolio-wrapper mb-0"><img class="img-fluid" alt="Item" src="/img/BlazorMovies/BlazorMovieLogo_v2_o.jpg">
+                <div class="portfolio-wrapper mb-0">
+                  <img class="img-fluid" alt="Item" src="/img/BlazorMovies/BlazorMovieLogo_v2_o.jpg">
                   <div class="item-content">
                     <h6 class="content-title">Blazor Movies Live</h6><span class="content-more">More Info</span>
                   </div>
                 </div>
               </a>
             </div>
+
             <!-- TODO: Loan Shark Card -->
             <!-- Single item-->
-            <div class="single-item col-6 col-lg-4">
+            <div class="single-item apps javascript col-6 col-lg-4">
               <a class="portfolio-item" href="#item-3">
-                <div class="portfolio-wrapper"><img class="img-fluid" alt="Item" src="/img/Mini-Codes/LoanShark/LoanSharkLogo.jpg">
+                <div class="portfolio-wrapper">
+                  <img class="img-fluid" alt="Item" src="/img/Mini-Codes/LoanShark/LoanSharkLogo.jpg">
                   <div class="item-content">
                     <h6 class="content-title">Loan Shark</h6><span class="content-more">More Info</span>
                   </div>
                 </div>
               </a>
             </div>
+
             <!-- TODO: FizzBuzz Card -->
             <!-- Single item-->
-            <div class="single-item col-6 col-lg-4 photos flex-fill">
+            <div class="single-item col-6 col-lg-4 apps  javascript flex-fill">
               <a class="portfolio-item" href="#item-4">
-                <div class="portfolio-wrapper"><img class="img-fluid" alt="Item" src="/img/Mini-Codes/FizzBuzz/FizzBuzzLogo.jpg">
+                <div class="portfolio-wrapper">
+                  <img class="img-fluid" alt="Item" src="/img/Mini-Codes/FizzBuzz/FizzBuzzLogo.jpg">
                   <div class="item-content">
                     <h6 class="content-title">FizzBuzz</h6><span class="content-more">More Info</span>
                   </div>
                 </div>
               </a>
             </div>
+
             <!-- TODO: TacoCat Card -->
             <!-- Single item-->
-            <div class="single-item col-6 col-lg-4 design flex-fill">
+            <div class="single-item col-6 col-lg-4 apps javascript flex-fill">
               <a class="portfolio-item" href="#item-5">
-                <div class="portfolio-wrapper"><img class="img-fluid" alt="Item" src="/img/Mini-Codes/TacoCat/TacoCatPic.jpg">
+                <div class="portfolio-wrapper">
+                  <img class="img-fluid" alt="Item" src="/img/Mini-Codes/TacoCat/TacoCatPic.jpg">
                   <div class="item-content">
                     <h6 class="content-title">TacoCat</h6><span class="content-more">More Info</span>
                   </div>
                 </div>
               </a>
             </div>
+
             <!-- TODO: Rewind Card -->
             <!-- Single item-->
-            <div class="single-item col-6 col-lg-4 brand height-100px">
+            <div class="single-item col-6 col-lg-4 apps javascript height-100px">
               <a class="portfolio-item" href="#item-6">
-                <div class="portfolio-wrapper mb-lg-0"><img class="img-fluid" alt="Item" src="/img/Mini-Codes/Rewind/arrow-backward-symbol-vector_1308-119607.jpg">
+                <div class="portfolio-wrapper mb-lg-0">
+                  <img class="img-fluid" alt="Item" src="/img/Mini-Codes/Rewind/arrow-backward-symbol-vector_1308-119607.jpg">
                   <div class="item-content">
                     <h6 class="content-title">Rewind</h6><span class="content-more">More Info</span>
                   </div>
                 </div>
               </a>
             </div>
+
             <!-- TODO: Hundo Card -->
             <!-- Single item-->
-            <div class="single-item col-6 col-lg-4 brand mt-2 mb-2">
+            <div class="single-item col-6 col-lg-4 apps javascript mt-2 mb-2">
               <a class="portfolio-item" href="#item-7">
-                <div class="portfolio-wrapper mb-0"><img class="img-fluid" alt="Item" src="/img/Mini-Codes/Hundo/HundoImg.jpg">
+                <div class="portfolio-wrapper mb-0">
+                  <img class="img-fluid" alt="Item" src="/img/Mini-Codes/Hundo/HundoImg.jpg">
                   <div class="item-content">
                     <h6 class="content-title">Hundo</h6><span class="content-more">More Info</span>
                   </div>
@@ -361,8 +375,8 @@
             <div class="row">
               <div class="col-12 col-lg-5">
                 <div class="lightbox-gallery owl-carousel owl-theme">
-                  <img class="img-fluid item-img" alt="Item" src="/img/BlazorMovies/MovieDetailsPage.jpg">
                   <img class="img-fluid item-img" alt="Item" src="/img/BlazorMovies/PopularMoviesPage.jpg">
+                  <img class="img-fluid item-img" alt="Item" src="/img/BlazorMovies/BlazorMoviePage.jpg">
                 </div>
               </div>
               <div class="col-12 col-lg-7">
@@ -583,7 +597,7 @@
         </div>
 
       <!-- Contact-->
-      <section class="single-section contact-area alt-bg" id="contact-area">
+      <section class="single-section contact-area alt-bg mt-3" id="contact-area">
         <div class="container">
           <div class="row">
             <div class="col-12">
@@ -598,14 +612,23 @@
             <div class="col-12">
               <form class="contact-form" name="contact" data-netlify="true" data-netlify-recaptcha="true" id="contact-form">
                 <div class="row">
-                  <div class="col-12 col-md-6 form-group"><input class="form-control" id="contact-name" type="text" name="name" placeholder="Name" required=""></div>
-                  <div class="col-12 col-md-6 form-group"><input class="form-control" id="contact-email" type="email" name="email" placeholder="Email" required=""></div>
-                  <div class="col-12 form-group"><input class="form-control" id="contact-subject" type="text" name="subject" placeholder="Subject" required=""></div>
-                  <div class="col-12 form-group form-message"><textarea class="form-control" id="contact-message" name="message" placeholder="Message" rows="5" required=""></textarea></div>
+                  <div class="col-12 col-md-6 form-group">
+                    <input class="form-control" id="contact-name" type="text" name="name" placeholder="Name" required="">
+                  </div>
+                  <div class="col-12 col-md-6 form-group">
+                    <input class="form-control" id="contact-email" type="email" name="email" placeholder="Email" required="">
+                  </div>
+                  <div class="col-12 form-group">
+                    <input class="form-control" id="contact-subject" type="text" name="subject" placeholder="Subject" required="">
+                  </div>
+                  <div class="col-12 form-group form-message">
+                    <textarea class="form-control" id="contact-message" name="message" placeholder="Message" rows="5" required=""></textarea>
+                  </div>
                   <div class="col-12">
                     <div class="mb-3" data-netlify-recaptcha="true"></div>
                   </div>
-                  <div class="col-12 form-submit"><button class="btn button-main button-scheme" id="contact-submit" type="submit">Send Message</button>
+                  <div class="col-12 form-submit">
+                    <button class="btn button-main button-scheme" id="contact-submit" type="submit">Send Message</button>
                     <p class="contact-feedback"></p>
                   </div>
                 </div>
@@ -614,6 +637,7 @@
           </div>
         </div>
       </section>
+      
       <!-- Footer-->
       <footer class="footer-area single-section">
         <div class="container">
