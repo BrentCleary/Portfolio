@@ -634,6 +634,7 @@
           })
           // Getting a response from the server
           .done(function(response) {
+            console.log("Here is the console Log for the Email: ", response);
             // If the PHP file succeed sending the message
             if (response == 'success') {
               // Feedback to the user
