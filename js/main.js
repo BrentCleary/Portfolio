@@ -647,16 +647,17 @@
               // Clears the Form
               form[0].reset();
               // If something is wrong
-            } else {
-              // Feedback to the user
-              console.log(response);
-              submitBtn.removeClass('wait').html('Error').addClass('error');
-              feedbackEl.addClass('error').html('Server error! Please check your browser console log for more details.').fadeIn(200);
-              setTimeout(function() {
-                submitBtn.html(submitBtnText).removeClass('error').prop('disabled', false);
-                feedbackEl.fadeOut(200).removeClass('error').html('');
-              }, 6000);
-            }
+            } 
+            // else {
+            //   // Feedback to the user
+            //   console.log(response);
+            //   submitBtn.removeClass('wait').html('Error').addClass('error');
+            //   feedbackEl.addClass('error').html('Server error! Please check your browser console log for more details.').fadeIn(200);
+            //   setTimeout(function() {
+            //     submitBtn.html(submitBtnText).removeClass('error').prop('disabled', false);
+            //     feedbackEl.fadeOut(200).removeClass('error').html('');
+            //   }, 6000);
+            // }
           });
       }, 1000);
     });
