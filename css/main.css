@@ -1456,6 +1456,8 @@ hr {
 
 .footer-area .mini-footer .social-medias {
   margin-bottom: 0;
+  display: flex;
+  justify-content: start;
 }
 
 .footer-area .mini-footer .social-medias a {
@@ -1463,13 +1465,14 @@ hr {
   border-radius: 20%;
   color: #fff;
   display: inline-block;
-  font-size: 16px;
-  height: 25px;
+  font-size: 32px;
+  height: 50px;
   line-height: 26px;
   margin: 0 6px;
   text-align: center;
   transition: all 0.1s ease-in-out;
-  width: 25px;
+  width: 50px;
+  
 }
 
 .footer-area .mini-footer .social-medias a:first-child {
@@ -1500,6 +1503,9 @@ hr {
 
 .footer-area .mini-footer .social-medias a.linkedin {
   background-color: #0077B5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .footer-area .mini-footer .social-medias a.linkedin:focus,
@@ -1518,6 +1524,9 @@ hr {
 
 .footer-area .mini-footer .social-medias a.github {
   background-color: #6e5494;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .footer-area .mini-footer .social-medias a.github:focus,
