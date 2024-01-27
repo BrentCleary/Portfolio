@@ -1412,6 +1412,8 @@ hr {
   color: #fff;
   padding-bottom: 0;
   padding-top: 0;
+  display: flex;
+  justify-content: flex-end;
 }
 
 .footer-area .contact-info {
@@ -1450,14 +1452,14 @@ hr {
   align-items: center;
   display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   padding: 44px 0;
 }
 
 .footer-area .mini-footer .social-medias {
   margin-bottom: 0;
   display: flex;
-  justify-content: start;
+  justify-content: end;
 }
 
 .footer-area .mini-footer .social-medias a {
@@ -1465,9 +1467,9 @@ hr {
   border-radius: 20%;
   color: #fff;
   display: inline-block;
-  font-size: 32px;
+  font-size: 50px;
   height: 50px;
-  line-height: 26px;
+  line-height: 50px;
   margin: 0 6px;
   text-align: center;
   transition: all 0.1s ease-in-out;
