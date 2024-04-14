@@ -44,7 +44,9 @@
   <div class="main-wrapper">
     <!-- Sidebar-->
     <header>
-      <nav class="navbar d-md-block d-lg-none fixed-top mobile-navbar"><button class="navbar-toggler mr-auto" type="button" data-toggle="collapse" data-target="#mobileNavbarSupportedContent" aria-controls="mobileNavbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="nav-btn">Menu</span></button>
+      <nav class="navbar d-md-block d-lg-none fixed-top mobile-navbar">
+        <button class="navbar-toggler mr-auto" type="button" data-toggle="collapse" data-target="#mobileNavbarSupportedContent" aria-controls="mobileNavbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="nav-btn">Menu</span>
+        </button>
         <div class="collapse navbar-collapse order-1" id="mobileNavbarSupportedContent">
           <ul class="navbar-nav mr-auto"></ul>
         </div>
@@ -60,7 +62,7 @@
             <li><a class="nav-link" href="#portfolio-area" data-scroll>Portfolio</a></li>
             <!-- <li><a class="nav-link" href="#services-area" data-scroll>Services</a></li> -->
             <!-- <li><a class="nav-link" href="#testimonials-area" data-scroll>Clients</a></li> -->
-            <!-- <li><a class="nav-link" href="#blog-area" data-scroll>Blog</a></li> -->
+            <li><a class="nav-link" href="https://www.linkedin.com/in/brent-cleary/" target="_blank" data-scroll>LinkedIn</a></li>
             <li><a class="nav-link" href="#contact-area" data-scroll>Contact</a></li>
           </ul>
         </div>
@@ -74,7 +76,7 @@
           <div class="row h-100 align-items-center justify-content-center">
             <div class="col-12 col-lg-8 home-content text-center">
               <h1 class="home-name">Brent <span>Cleary</span></h1>
-              <h4 class="cd-headline clip home-headline">I am a <span class="cd-words-wrapper single-headline"><b class="is-visible">Developer</b><b>Designer</b><b>Freelancer</b></span></h4>
+              <h4 class="cd-headline clip home-headline">I am a <span class="cd-words-wrapper single-headline"><b class="is-visible">Full Stack Developer</b><b>Project Planner</b><b>Designer</b><b>Freelancer</b></span></h4>
             </div><a href="#about-area" data-scroll>
               <div class="home-mouse">
                 <div class="mouse-shape">
@@ -110,7 +112,8 @@
                 <h2 class="content-subtitle">Who am I?</h2>
                 <h6 class="content-title">An ASP.NET Full Stack Developer, with experience building fullstack web applications in C#, JavaScript and Python.</h6>
                 <div class="content-description">
-                  <p>Since graduating from the Coding Dojo Bootcamp in May 2023, and I have been building applications in ASP.NET, React and Python which comply with the latest design trends. I help convert a vision and an idea into meaningful and useful products. Having a sharp eye for product evolution helps me prioritize tasks, iterate fast and deliver faster.</p>
+                  <p>Since graduating from the Coding Dojo Bootcamp in May 2023, and I have been building applications in ASP.NET, React and Python which comply with the latest design trends. 
+                    I help convert a vision and an idea into meaningful and useful products. Having a sharp eye for product evolution helps me prioritize tasks, iterate fast and deliver faster.</p>
                 </div>
                 <address class="content-info">
                   <div class="row">
@@ -159,7 +162,6 @@
             <div class="col-12">
               <div class="section-heading">
                 <h2 class="section-title">Websites and Applications</h2>
-                <p class="section-description">Websites, Applications and Coding Challenges</p>
               </div>
             </div>
           </div>
@@ -167,21 +169,19 @@
             <!-- Filter nav-->
             <div class="col-12">
               <ul class="list-inline filter-control" role="group" aria-label="Filter Control">
-                <li class="list-inline-item tab-active" data-filter="*">All</li>
-                <li class="list-inline-item" data-filter=".websites">Websites</li>
-                <li class="list-inline-item" data-filter=".apps">Applications</li>
-                <li class="list-inline-item" data-filter=".asp-net">.NET 8</li>
+                <li class="list-inline-item tab-active" data-filter=".projects">All</li>
+                <li class="list-inline-item tab-active" data-filter=".asp-net">.NET 8</li>
+                <li class="list-inline-item" data-filter=".blazor">Blazor</li>
               </ul>
             </div>
           </div>
-
 
           <!-- Thumbnail list-->
           <div class="portfolio-grid row">
 
             <!-- TODO: BUGTRACKS - ITEM #1 -->
             <!-- Single item-->
-            <div class="single-item websites asp-net col-6 col-lg-4">
+            <div class="single-item websites asp-net projects col-6 col-lg-4">
               <a class="portfolio-item" href="#item-1">
                 <div class="portfolio-wrapper mb-0">
                   <img class="img-fluid" alt="Item" 
@@ -197,7 +197,7 @@
 
             <!-- TODO: .NET DEVELOPING BLOG - ITEM #2 -->
             <!-- Single item-->
-            <div class="single-item websites asp-net col-6 col-lg-4">
+            <div class="single-item websites asp-net projects col-6 col-lg-4">
               <a class="portfolio-item" href="#item-2">
                 <div class="portfolio-wrapper mb-0">
                   <img class="img-fluid" alt="Item" src="/img/TheBlogProject/BlogPictureForPortfolio.jpg">
@@ -212,7 +212,7 @@
 
             <!-- TODO: Contact Pro Card - ITEM #3 -->
             <!-- Single item-->
-            <div class="single-item websites asp-net col-6 col-lg-4">
+            <div class="single-item websites asp-net projects col-6 col-lg-4">
               <a class="portfolio-item" href="#item-3">
                 <div class="portfolio-wrapper mb-0">
                   <img class="img-fluid" alt="Item" src="/img/ContactPro/ContactProLogoSquare.jpg">
@@ -228,7 +228,7 @@
 
             <!-- TODO: Blazor Movie Pro -->
             <!-- Single item-->
-            <div class="single-item websites asp-net col-6 col-lg-4">
+            <div class="single-item websites blazor projects col-6 col-lg-4">
               <a class="portfolio-item" href="#item-4">
                 <div class="portfolio-wrapper mb-0">
                   <img class="img-fluid" alt="Item" src="/img/BlazorMovies/BlazorMoviesImages.jpg">
@@ -239,9 +239,10 @@
               </a>
             </div>
 
+            
             <!-- TODO: Loan Shark Card -->
             <!-- Single item-->
-            <div class="single-item apps javascript col-6 col-lg-4">
+            <!-- <div class="single-item apps javascript col-6 col-lg-4">
               <a class="portfolio-item" href="#item-4">
                 <div class="portfolio-wrapper">
                   <img class="img-fluid" alt="Item" src="/img/Mini-Codes/LoanShark/LoanSharkLogo.jpg">
@@ -250,11 +251,11 @@
                   </div>
                 </div>
               </a>
-            </div>
+            </div> -->
 
             <!-- TODO: FizzBuzz Card -->
             <!-- Single item-->
-            <div class="single-item col-6 col-lg-4 apps  javascript flex-fill">
+            <!-- <div class="single-item col-6 col-lg-4 apps  javascript flex-fill">
               <a class="portfolio-item" href="#item-5">
                 <div class="portfolio-wrapper">
                   <img class="img-fluid" alt="Item" src="/img/Mini-Codes/FizzBuzz/FizzBuzzLogo.jpg">
@@ -263,24 +264,24 @@
                   </div>
                 </div>
               </a>
-            </div>
+            </div> -->
 
             <!-- TODO: TacoCat Card -->
             <!-- Single item-->
-            <div class="single-item col-6 col-lg-4 apps javascript flex-fill">
+            <!-- <div class="single-item col-6 col-lg-4 apps javascript flex-fill">
               <a class="portfolio-item" href="#item-6">
                 <div class="portfolio-wrapper">
-                  <img class="img-fluid" alt="Item" src="/img/Mini-Codes/TacoCat/TacoCatPic.jpg">
+                  <img class="img-fluid" alt="Item" src="/img/Mini-Codes/TacoCat/Default_A_logo_saying_TacocaT_over_a_picture_of_a_cat_standing_0.jpg" >
                   <div class="item-content">
                     <h6 class="content-title">TacoCat</h6><span class="content-more">More Info</span>
                   </div>
                 </div>
               </a>
-            </div>
+            </div> -->
 
             <!-- TODO: Rewind Card -->
             <!-- Single item-->
-            <div class="single-item col-6 col-lg-4 apps javascript height-100px">
+            <!-- <div class="single-item col-6 col-lg-4 apps javascript height-100px">
               <a class="portfolio-item" href="#item-7">
                 <div class="portfolio-wrapper mb-lg-0">
                   <img class="img-fluid" alt="Item" src="/img/Mini-Codes/Rewind/neon-symbol-rewind.jpg">
@@ -289,11 +290,11 @@
                   </div>
                 </div>
               </a>
-            </div>
+            </div> -->
 
             <!-- TODO: Hundo Card -->
             <!-- Single item-->
-            <div class="single-item col-6 col-lg-4 apps javascript mt-2 mb-2">
+            <!-- <div class="single-item col-6 col-lg-4 apps javascript mt-2 mb-2">
               <a class="portfolio-item" href="#item-8">
                 <div class="portfolio-wrapper mb-0">
                   <img class="img-fluid" alt="Item" src="/img/Mini-Codes/Hundo/HundoImg.jpg">
@@ -302,7 +303,7 @@
                   </div>
                 </div>
               </a>
-            </div>
+            </div> -->
 
           </div>
         </div>
@@ -319,8 +320,8 @@
             <div class="row">
               <div class="col-12 col-lg-5">
                 <div class="lightbox-gallery owl-carousel owl-theme">
-                  <img class="img-fluid item-img" alt="Item" src="/img/BugTracks/BugTracks_HomePage_Screen.jpg">
                   <img class="img-fluid item-img" alt="Item" src="/img/BugTracks/BugTracks_AllProjects_Screen.jpg">
+                  <img class="img-fluid item-img" alt="Item" src="/img/BugTracks/BugTracks_HomePage_Screen.jpg">
                   <img class="img-fluid item-img" alt="Item" src="img/BugTracks/BugTracks_AllTickets_Screen.jpg">
                   <img class="img-fluid item-img" alt="Item" src="/img/BugTracks/BugTracks_Login_Screen.jpg">
                 </div>
@@ -661,6 +662,98 @@
             </div>
           </div>
         </div>
+
+
+  <section class="single-section portfolio-area" id="portfolio-area">
+    <!-- TODO - CODING CHALLENGES -->
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div class="section-heading">
+            <h2 class="section-title">Coding Challenges</h2>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <!-- Filter nav-->
+        <div class="col-12">
+          <ul class="list-inline filter-control" role="group" aria-label="Filter Control">
+            <li class="list-inline-item" data-filter=".all-apps">All</li>
+            <li class="list-inline-item" data-filter=".apps">Applications</li>
+            <li class="list-inline-item" data-filter=".algos">Algorithm Challenges</li>
+          </ul>
+        </div>
+      </div>
+      <!-- TODO: Loan Shark Card -->
+      <!-- Thumbnail list-->
+      <div class="portfolio-grid row">
+        <!-- Single item-->
+        <div class="single-item apps all-apps javascript col-6 col-lg-4">
+          <a class="portfolio-item" href="#item-4">
+            <div class="portfolio-wrapper">
+              <img class="img-fluid" alt="Item" src="/img/Mini-Codes/LoanShark/LoanSharkLogo.jpg">
+              <div class="item-content">
+                <h6 class="content-title">Loan Shark</h6><span class="content-more">More Info</span>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <!-- TODO: FizzBuzz Card -->
+        <!-- Single item-->
+        <div class="single-item col-6 col-lg-4 algos all-apps javascript flex-fill">
+          <a class="portfolio-item" href="#item-5">
+            <div class="portfolio-wrapper">
+              <img class="img-fluid" alt="Item" src="/img/Mini-Codes/FizzBuzz/FizzBuzzLogo.jpg">
+              <div class="item-content">
+                <h6 class="content-title">FizzBuzz</h6><span class="content-more">More Info</span>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <!-- TODO: TacoCat Card -->
+        <!-- Single item-->
+        <div class="single-item col-6 col-lg-4 algos all-apps javascript flex-fill">
+          <a class="portfolio-item" href="#item-6">
+            <div class="portfolio-wrapper">
+              <img class="img-fluid" alt="Item" src="/img/Mini-Codes/TacoCat/Default_A_logo_saying_TacocaT_over_a_picture_of_a_cat_standing_0.jpg" >
+              <div class="item-content">
+                <h6 class="content-title">TacoCat</h6><span class="content-more">More Info</span>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <!-- TODO: Rewind Card -->
+        <!-- Single item-->
+        <div class="single-item col-6 col-lg-4 algos all-apps javascript height-100px">
+          <a class="portfolio-item" href="#item-7">
+            <div class="portfolio-wrapper mb-lg-0">
+              <img class="img-fluid" alt="Item" src="/img/Mini-Codes/Rewind/neon-symbol-rewind.jpg">
+              <div class="item-content">
+                <h6 class="content-title">Rewind</h6><span class="content-more">More Info</span>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <!-- TODO: Hundo Card -->
+        <!-- Single item-->
+        <div class="single-item col-6 col-lg-4 algos all-apps javascript mt-2 mb-2">
+          <a class="portfolio-item" href="#item-8">
+            <div class="portfolio-wrapper mb-0">
+              <img class="img-fluid" alt="Item" src="/img/Mini-Codes/Hundo/HundoImg.jpg">
+              <div class="item-content">
+                <h6 class="content-title">Hundo</h6><span class="content-more">More Info</span>
+              </div>
+            </div>
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </section>
 
 
       <!-- Services-->

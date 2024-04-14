@@ -443,7 +443,7 @@ hr {
 }
 
 .mobile-navbar:before {
-  background-color: #222;
+  background-color: #222222;
   content: '';
   height: 58px;
   position: absolute;
@@ -499,7 +499,7 @@ hr {
 }
 
 .home-area:before {
-  background-color: rgba(0, 0, 0, 0.68);
+  background-color: rgba(0, 0, 0, 0);
 }
 
 .home-area .home-name {
