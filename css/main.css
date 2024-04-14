@@ -929,6 +929,9 @@ hr {
 }
 
 /*----------- Portfolio -----------*/
+
+
+/* -------------- Filter Control 1 ---------------- */
 .portfolio-area .filter-control {
   margin-bottom: 14px;
 }
@@ -956,6 +959,40 @@ hr {
   position: absolute;
   width: 100%;
 }
+
+
+/* ---------- Filter Control 2 ----------- */
+.portfolio-area .filter-control-2 {
+  margin-bottom: 14px;
+}
+
+.portfolio-area .filter-control-2>li {
+  border-bottom: 1px solid transparent;
+  color: #444;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0.3px;
+  position: relative;
+  transition: all .10s ease-in-out;
+}
+
+.portfolio-area .filter-control-2>li:not(:last-child) {
+  margin-right: 16px;
+}
+
+.portfolio-area .filter-control-2>li:hover:before,
+.portfolio-area .filter-control-2>li.tab-active:before {
+  bottom: 0;
+  content: "";
+  height: 1px;
+  position: absolute;
+  width: 100%;
+}
+
+
+
+
 
 .portfolio-area .portfolio-grid .portfolio-wrapper {
   -ms-flex-align: center;
